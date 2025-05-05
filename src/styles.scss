@@ -1,0 +1,30 @@
+.dashboard {
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 27px;
+    gap: 10px;
+
+    span {
+      white-space: nowrap;
+    }
+  }
+
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    &-error{
+      
+      color: red;
+      justify-content: center;
+      margin: 0 auto;
+      padding-bottom: 20px;
+    }
+    @media (max-width: 476px) {
+      flex-direction: column;
+    }
+  }
+}
