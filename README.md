@@ -76,4 +76,4 @@ src/
 
 ---
 
-*Автор: Семён Кондауров, Frondent-developer*
+*Автор: Семён Кондауров, Frontent-developer*
